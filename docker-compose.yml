@@ -20,7 +20,7 @@ services:
           - app
 
   mysql-db:
-    image: mysql:5.7
+    image: mariadb
     container_name: mysql-db
     volumes:
       - ./run/var:/var/lib/mysql
